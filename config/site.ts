@@ -1,6 +1,7 @@
 export type SiteConfig = typeof siteConfig
+
 export const siteConfig = {
-  name: "youuu",
+  name: "Ni Dingyou 的终极控制台",
   description: "C++ 底层、AI 前沿、语言出分与科学健美",
   mainNav: [],
   links: {
@@ -274,4 +275,39 @@ export const NavData: NavData[] = [
       {
         icon: "https://chatgpt.com/favicon.ico",
         title: "ChatGPT",
-        desc: "全能 AI
+        desc: "全能 AI 导师，辅助 Debug、解释算法与润色学术英语",
+        link: "https://chatgpt.com/"
+      },
+      {
+        icon: "https://www.toolify.ai/favicon.ico",
+        title: "Toolify.ai",
+        desc: "全球最大 AI 工具导航，发现最新效率神器",
+        link: "https://www.toolify.ai/zh/"
+      },
+      {
+        icon: "https://pythontutor.com/favicon.ico",
+        title: "Python Tutor",
+        desc: "代码运行过程可视化工具，一步步看懂内存里的变量变化",
+        link: "https://pythontutor.com/"
+      },
+      {
+        icon: "https://voyager.postman.com/logo/postman-logo-icon-orange.svg",
+        title: "Postman",
+        desc: "老牌 API 开发和测试工具",
+        link: "https://www.postman.com/"
+      },
+      {
+        icon: "/icons/json-cn.ico",
+        title: "Json 中文网",
+        desc: "JSON 在线解析及格式化验证",
+        link: "https://www.json.cn"
+      },
+      {
+        icon: "https://c.runoob.com/favicon.ico",
+        title: "菜鸟工具合集",
+        desc: "支持多种语言的在线编译器，随时随地测试代码片段",
+        link: "https://c.runoob.com/"
+      }
+    ]
+  }
+]
