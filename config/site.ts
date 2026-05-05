@@ -138,7 +138,7 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "🔋 极客生活与硬体维稳",
+    title: "lifestyle",
     items: [
       {
         icon: "https://cronometer.com/favicon.ico",
