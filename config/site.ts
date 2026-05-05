@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Ni Dingyou 的极客导航",
+  name: "youuu",
   description: "英语学习、C++ 编程与 AI 工具箱",
   mainNav: [],
   links: {
