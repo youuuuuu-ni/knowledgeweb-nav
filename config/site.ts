@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "youuu",
-  description: "全栈开发、留学备考与硬核生活指南",
+  description: "计算机核心技术、留学出分与硬核生活控制台",
   mainNav: [],
   links: {
     twitter: "https://twitter.com",
@@ -22,147 +22,196 @@ type NavData = {
 
 export const NavData: NavData[] = [
   {
-    title: "🇬🇧 留学与语言出分 (IELTS/PTE/GRE)",
+    title: "🎧 雅思冲刺与高频泛听环境",
     items: [
       {
-        icon: "https://www.bbc.com/bbcx/favicon-16x16.png",
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Aussie English",
+        desc: "提前适应悉尼口音与高语速日常对话",
+        link: "https://www.youtube.com/@AussieEnglishPodcast"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "IELTS Simon",
+        desc: "前考官的神级雅思写作与保分教程",
+        link: "https://www.youtube.com/@IELTSimon"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Fastrack IELTS",
+        desc: "极速提分策略与实战演练",
+        link: "https://www.youtube.com/@FastrackIELTS"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Speaking Success",
+        desc: "专攻口语流利度与考官好感度",
+        link: "https://www.youtube.com/@EnglishSpeakingSuccess"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "E2 IELTS",
+        desc: "雅思考试全面解析与备考技巧",
+        link: "https://www.youtube.com/@E2IELTS"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=bbc.co.uk&sz=128",
         title: "BBC Learning English",
-        desc: "雅思听力泛听首选，地道英音素材库与跟读练习",
-        link: "https://www.bbc.co.uk/learningenglish"
+        desc: "权威英式新闻语感与听力泛听",
+        link: "https://www.youtube.com/@bbclearningenglish"
       },
       {
-        icon: "https://www.apeuni.com/favicon.ico",
-        title: "猩际 PTE (Apeuni)",
-        desc: "PTE 备考神器，AI 智能打分，澳洲留学热门提分通道",
-        link: "https://www.apeuni.com/"
-      },
-      {
-        icon: "https://kmf.com/favicon.ico",
-        title: "KMF 考满分",
-        desc: "托福、GRE 在线刷题与 TPO 模考权威平台",
-        link: "https://www.kmf.com/"
-      },
-      {
-        icon: "https://cdn.vocabulary.com/images/favicons/favicon-32x32-2frmtt.png",
-        title: "Vocabulary.com",
-        desc: "智能化词汇学习平台，攻克雅思与 GRE 核心高频词",
-        link: "https://www.vocabulary.com/"
-      },
-      {
-        icon: "https://youglish.com/images/logo.png",
-        title: "YouGlish",
-        desc: "在 YouTube 真实语境中搜索单词发音，纠正口语",
-        link: "https://youglish.com/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "AccurateEnglish",
+        desc: "专业级发音纠正与语调训练",
+        link: "https://www.youtube.com/@AccurateEnglish"
       }
     ]
   },
   {
-    title: "💻 数据结构与底层逻辑",
+    title: "💻 计算机基础、AI与前沿底层",
     items: [
       {
-        icon: "https://www.hello-algo.com/favicon.ico",
-        title: "Hello 算法",
-        desc: "动画图解数据结构与算法，支持 C++/Java/Python，极度新手友好",
-        link: "https://www.hello-algo.com/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Andrej Karpathy",
+        desc: "前 OpenAI 神级大模型底层原理解析",
+        link: "https://www.youtube.com/@AndrejKarpathy"
       },
       {
-        icon: "https://visualgo.net/img/favicon.png",
-        title: "VisuAlgo",
-        desc: "数据结构动态可视化，直观透视树、图和排序算法",
-        link: "https://visualgo.net/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "李宏毅 (Hung-yi Lee)",
+        desc: "台大机器学习最强中文公开课",
+        link: "https://www.youtube.com/@HungyiLeeNTU"
       },
       {
-        icon: "https://leetcode.cn/favicon.ico",
-        title: "力扣 LeetCode",
-        desc: "每日一题，磨炼核心算法逻辑与大厂面试技巧",
-        link: "https://leetcode.cn/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "CppCon",
+        desc: "全球顶级 C++ 开发者大会技术分享",
+        link: "https://www.youtube.com/@CppCon"
       },
       {
-        icon: "https://media.geeksforgeeks.org/gfg-gg-logo.svg",
-        title: "GeeksforGeeks",
-        desc: "全球最大的计算机科学大百科，算法解析极其详尽",
-        link: "https://www.geeksforgeeks.org/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "The Cherno",
+        desc: "硬核 C++ 教学与游戏引擎开发",
+        link: "https://www.youtube.com/@TheCherno"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=freecodecamp.org&sz=128",
+        title: "freeCodeCamp",
+        desc: "全球最大的开源免费编程学习库",
+        link: "https://www.youtube.com/@freecodecamp"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Fireship",
+        desc: "极速高能的程序员技术栈科普",
+        link: "https://www.youtube.com/@Fireship"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Two Minute Papers",
+        desc: "前沿 AI 论文与图形学进展速递",
+        link: "https://www.youtube.com/@TwoMinutePapers"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "ML Street Talk",
+        desc: "深入硬核的顶级 AI 专家圆桌访谈",
+        link: "https://www.youtube.com/@MachineLearningStreetTalk"
       }
     ]
   },
   {
-    title: "👨‍💻 编程语言储备 (C++/Java/Python)",
+    title: "🏋️‍♂️ 科学健美与形体塑造",
     items: [
       {
-        icon: "https://cppreference.com/favicon.ico",
-        title: "C++ Reference",
-        desc: "最权威的 C++ 标准库查询手册，吃透内存管理与指针",
-        link: "https://en.cppreference.com/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "RP Strength",
+        desc: "博士级科学增肌与硬核备赛理论",
+        link: "https://www.youtube.com/@RenaissancePeriodization"
       },
       {
-        icon: "https://pythontutor.com/favicon.ico",
-        title: "Python Tutor",
-        desc: "代码运行过程可视化工具，一步步看懂内存里的变量变化",
-        link: "https://pythontutor.com/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Jeremy Ethier",
+        desc: "基于解剖学文献的最佳动作生物力学",
+        link: "https://www.youtube.com/@JeremyEthier"
       },
       {
-        icon: "https://spring.io/favicon.ico",
-        title: "Spring Framework",
-        desc: "Java 企业级开发核心框架官方文档，后端进阶必读",
-        link: "https://spring.io/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Jeff Nippard",
+        desc: "用最新科学研究优化自然健身计划",
+        link: "https://www.youtube.com/@JeffNippard"
       },
       {
-        icon: "https://c.runoob.com/favicon.ico",
-        title: "菜鸟工具合集",
-        desc: "支持多种语言的在线编译器，随时随地测试代码片段",
-        link: "https://c.runoob.com/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Mind Pump Show",
+        desc: "打破健身迷思的顶尖私教访谈播客",
+        link: "https://www.youtube.com/@MindPumpShow"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Adam Yu",
+        desc: "优质中文圈健美理论与肌肉解析",
+        link: "https://www.youtube.com/@adamyu"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "shuaisoserious",
+        desc: "力量训练与减脂/碳水循环饮食实操",
+        link: "https://www.youtube.com/@shuaisoserious"
       }
     ]
   },
   {
-    title: "🤖 AI 与效率工具箱",
+    title: "📈 深度认知、商业与播客",
     items: [
       {
-        icon: "https://chatgpt.com/favicon.ico",
-        title: "ChatGPT",
-        desc: "全能 AI 导师，辅助 Debug、解释算法与润色学术英语",
-        link: "https://chatgpt.com/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Lex Fridman",
+        desc: "对话全球顶级科学家、黑客与思想家",
+        link: "https://www.youtube.com/@lexfridman"
       },
       {
-        icon: "https://www.toolify.ai/favicon.ico",
-        title: "Toolify.ai",
-        desc: "全球最大 AI 工具导航，发现营销、数据分析最新神器",
-        link: "https://www.toolify.ai/zh/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "All-In Podcast",
+        desc: "硅谷风投大佬的科技与宏观经济圆桌",
+        link: "https://www.youtube.com/@AllIn"
       },
       {
-        icon: "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/57x57.png",
-        title: "Vercel",
-        desc: "网站托管控制台，管理你的个人云端资产",
-        link: "https://vercel.com/dashboard"
-      }
-    ]
-  },
-  {
-    title: "lifestyle",
-    items: [
-      {
-        icon: "https://cronometer.com/favicon.ico",
-        title: "Cronometer",
-        desc: "极度精准的饮食计算器，追踪碳水循环、蛋白质及各类微量补剂吸收",
-        link: "https://cronometer.com/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Ali Abdaal",
+        desc: "剑桥学霸的高效学习与生产力系统",
+        link: "https://www.youtube.com/@aliabdaal"
       },
       {
-        icon: "https://exrx.net/favicon.ico",
-        title: "ExRx.net",
-        desc: "骨灰级运动机能学动作库，查阅肌肉发力角度与训练解剖学",
-        link: "https://exrx.net/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "半拿铁",
+        desc: "极具深度的商业史与互联网硬核科普",
+        link: "https://www.youtube.com/@bannatie"
       },
       {
-        icon: "https://sleepopolis.com/wp-content/uploads/2023/03/sleep-calculator-icon.png",
-        title: "Sleep Calculator",
-        desc: "睡眠周期倒推工具，科学保障高质量的神经恢复与增肌作息",
-        link: "https://sleepopolis.com/calculators/sleep/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Stanford GSB",
+        desc: "斯坦福商学院顶级商业与管理演讲",
+        link: "https://www.youtube.com/@StanfordGSB"
       },
       {
-        icon: "https://incidecoder.com/favicon.ico",
-        title: "INCIdecoder",
-        desc: "硬核护肤品成分透视镜，秒查洗护产品的控油与致痘风险",
-        link: "https://incidecoder.com/"
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Veritasium",
+        desc: "探究万物本质的高质量物理科学科普",
+        link: "https://www.youtube.com/@veritasium"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=economist.com&sz=128",
+        title: "The Economist",
+        desc: "全球宏观经济、政治与商业深度分析",
+        link: "https://www.youtube.com/@TheEconomist"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+        title: "Big Think",
+        desc: "顶尖思想家探讨改变世界的宏大概念",
+        link: "https://www.youtube.com/@BigThink"
       }
     ]
   }
