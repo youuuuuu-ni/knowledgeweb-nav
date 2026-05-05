@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Ni Dingyou 的终极控制台",
+  name: "youuu",
   description: "C++ 底层、AI 前沿、语言出分与科学健美",
   mainNav: [],
   links: {
